@@ -32,3 +32,37 @@ C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_ko
 C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy.csprojResolveAssemblyReference.cache
 C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\new_password.g.cs
 C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\new_password.baml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\serwis_komputerowy.exe.config
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy.exe
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy.pdb
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\background.png
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\serwis_komputerowy.exe
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\serwis_komputerowy.pdb
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\EntityFramework.dll
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\MySql.Data.dll
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\EntityFramework.xml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy.csprojResolveAssemblyReference.cache
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\login_start.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\MainWindow.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\new_password.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\new_user.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\root.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\serwis.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\zarzadzaj_kontami.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\App.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy_Content.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy_MarkupCompile.cache
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy_MarkupCompile.lref
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\login_start.baml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\MainWindow.baml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\new_password.baml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\new_user.baml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\root.baml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\serwis.baml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\zarzadzaj_kontami.baml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy.g.resources
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy.Properties.Resources.resources
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\serwis_komputerowy.csproj.GenerateResource.Cache

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\
 serwis_komputerowy
 none
 false
 DEBUG;TRACE
-C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\layout\App.xaml
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\layout\App.xaml
 7-349872232
 1-153140513
 24236104974
-20-344190422
+2085769278
 layout\login_start.xaml;layout\MainWindow.xaml;layout\new_password.xaml;layout\new_user.xaml;layout\root.xaml;layout\serwis.xaml;layout\zarzadzaj_kontami.xaml;
 
-False
+True
 
