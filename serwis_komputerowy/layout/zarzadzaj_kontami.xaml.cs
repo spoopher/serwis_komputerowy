@@ -85,7 +85,7 @@ namespace serwis_komputerowy
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            nowe_haslo.Show();
+           // nowe_haslo.Show();
         }
     }
 }
