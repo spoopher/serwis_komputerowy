@@ -1,0 +1,32 @@
+﻿<Page x:Class="serwis_komputerowy.zarzadzaj_kontami"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:serwis_komputerowy"
+      mc:Ignorable="d" 
+      d:DesignHeight="560" d:DesignWidth="800"
+      Title="zarzadzaj_kontami">
+
+    <Page.Background>
+        <ImageBrush ImageSource="background.png"/>
+    </Page.Background>
+
+
+    <Grid>
+        <Button x:Name="button" Content="Wyświetl użytkowników" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" Width="147" Height="30" Click="button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="189,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="189,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="189,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="22" Margin="189,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
+        <Label x:Name="label" Content="Nazwa użytkownika:" HorizontalAlignment="Left" Margin="40,187,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Imię" HorizontalAlignment="Left" Margin="124,228,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Nazwisko" HorizontalAlignment="Left" Margin="97,269,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.583,2.077"/>
+        <Label x:Name="label4" Content="Uprawnienia" HorizontalAlignment="Left" Margin="81,308,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button2" Content="Zatwierdź zmiany" HorizontalAlignment="Left" Margin="24,411,0,0" VerticalAlignment="Top" Width="133" Click="button2_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="100" Margin="189,53,0,0" VerticalAlignment="Top" Width="559" SelectionChanged="listBox_SelectionChanged"/>
+        <Button x:Name="button1" Content="zmień hasło" HorizontalAlignment="Left" Margin="82,88,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+
+
+    </Grid>
+</Page>
