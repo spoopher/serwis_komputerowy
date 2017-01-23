@@ -5,19 +5,20 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:serwis_komputerowy"
       mc:Ignorable="d" 
-      d:DesignHeight="600" d:DesignWidth="800"
+      d:DesignHeight="530" d:DesignWidth="794"
       Title="serwis">
     <Page.Background>
         <ImageBrush ImageSource="background.png"/>
     </Page.Background>
 
     <Grid>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="780" SelectedIndex="0">
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="780" SelectedIndex="0" SelectionChanged="comboBox_SelectionChanged">
             <ComboBoxItem Content="Nowe zgłoszenie"/>
+            <ComboBoxItem Content="Zarządzanie kategoriami"/>
             <ComboBoxItem Content="Wyświetl zgłoszenia"/>
             <ComboBoxItem Content="Edycja zgłoszeń"/>
         </ComboBox>
-        <Frame x:Name="frame" Content="" HorizontalAlignment="Left" Height="539" Margin="10,51,0,0" VerticalAlignment="Top" Width="780" Navigated="frame_Navigated"/>
+        <Frame x:Name="frame" Content="" HorizontalAlignment="Left" Height="480" Margin="0,51,0,0" VerticalAlignment="Top" Width="790"  NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Page>

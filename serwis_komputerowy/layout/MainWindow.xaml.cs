@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using serwis_komputerowy.layout;
 
 namespace serwis_komputerowy
 {
@@ -27,8 +28,6 @@ namespace serwis_komputerowy
         {
             InitializeComponent();
     
-
-
         }
 
        public void button_enable()
@@ -55,7 +54,9 @@ namespace serwis_komputerowy
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            main.Content = new serwis();
+            serwis nowys = new serwis();
+            main.Content = nowys;
+            nowys.frame.Content = new nowe_zgloszenie();
         }
     }
 }

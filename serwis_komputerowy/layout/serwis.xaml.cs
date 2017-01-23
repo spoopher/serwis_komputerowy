@@ -1,4 +1,5 @@
-﻿using System;
+﻿using serwis_komputerowy.layout;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,9 +16,7 @@ using System.Windows.Shapes;
 
 namespace serwis_komputerowy
 {
-    /// <summary>
-    /// Interaction logic for serwis.xaml
-    /// </summary>
+   
     public partial class serwis : Page
     {
         public serwis()
@@ -28,6 +27,15 @@ namespace serwis_komputerowy
         private void frame_Navigated(object sender, NavigationEventArgs e)
         {
 
+        }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+          
+            if (comboBox.SelectedIndex == 1)
+            {
+                frame.Content = new nowe_zgloszenie();
+            }
         }
     }
 }
