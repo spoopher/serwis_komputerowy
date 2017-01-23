@@ -1,3 +1,4 @@
+using serwis_komputerowy.entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;

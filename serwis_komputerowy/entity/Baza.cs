@@ -1,4 +1,4 @@
-namespace serwis_komputerowy
+namespace serwis_komputerowy.entity
 {
     using System;
     using System.Data.Entity;
@@ -22,18 +22,6 @@ namespace serwis_komputerowy
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Czynnosc>()
-                .Property(e => e.IDZlecenia)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<Czynnosc>()
-                .Property(e => e.IDPracownika)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<Czynnosc>()
-                .Property(e => e.IDKatCzynnosci)
-                .IsUnicode(false);
-
             modelBuilder.Entity<Czynnosc>()
                 .Property(e => e.Data)
                 .IsUnicode(false);
@@ -145,14 +133,6 @@ namespace serwis_komputerowy
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Sprzet>()
-                .Property(e => e.IDKatSprzetu)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<Sprzet>()
-                .Property(e => e.IDKlienta)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<Sprzet>()
                 .Property(e => e.Producent)
                 .IsUnicode(false);
 
@@ -173,14 +153,6 @@ namespace serwis_komputerowy
                 .WithRequired(e => e.Sprzet)
                 .HasForeignKey(e => e.Sprzet_IDSprzetu)
                 .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<Zlecenie>()
-                .Property(e => e.IDKlienta)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<Zlecenie>()
-                .Property(e => e.IDSprzetu)
-                .IsUnicode(false);
 
             modelBuilder.Entity<Zlecenie>()
                 .Property(e => e.Status)

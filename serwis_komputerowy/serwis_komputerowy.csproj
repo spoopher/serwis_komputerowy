@@ -74,20 +74,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="layout\App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="entity\Baza.cs" />
     <Compile Include="entity\Czynnosc.cs" />
     <Compile Include="entity\KatCzynnosci.cs" />
     <Compile Include="entity\KatSprzetu.cs" />
     <Compile Include="entity\Klient.cs" />
+    <Compile Include="entity\Pracownik.cs" />
+    <Compile Include="entity\Sprzet.cs" />
+    <Compile Include="entity\Zlecenie.cs" />
+    <Compile Include="layout\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="layout\login_start.xaml.cs">
       <DependentUpon>login_start.xaml</DependentUpon>
     </Compile>
     <Compile Include="cs\md5.cs" />
-    <Compile Include="entity\Pracownik.cs" />
     <Compile Include="layout\new_password.xaml.cs">
       <DependentUpon>new_password.xaml</DependentUpon>
     </Compile>
@@ -97,11 +99,9 @@
     <Compile Include="layout\serwis.xaml.cs">
       <DependentUpon>serwis.xaml</DependentUpon>
     </Compile>
-    <Compile Include="entity\Sprzet.cs" />
     <Compile Include="layout\zarzadzaj_kontami.xaml.cs">
       <DependentUpon>zarzadzaj_kontami.xaml</DependentUpon>
     </Compile>
-    <Compile Include="entity\Zlecenie.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="layout\MainWindow.xaml.cs">

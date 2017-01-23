@@ -1,4 +1,4 @@
-namespace serwis_komputerowy
+namespace serwis_komputerowy.entity
 {
     using System;
     using System.Collections.Generic;

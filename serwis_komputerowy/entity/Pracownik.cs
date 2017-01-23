@@ -1,4 +1,4 @@
-namespace serwis_komputerowy
+namespace serwis_komputerowy.entity
 {
     using System;
     using System.Collections.Generic;
@@ -40,7 +40,5 @@ namespace serwis_komputerowy
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Czynnosc> Czynnosc { get; set; }
-
-     
     }
 }

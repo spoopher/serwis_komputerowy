@@ -1,4 +1,4 @@
-namespace serwis_komputerowy
+namespace serwis_komputerowy.entity
 {
     using System;
     using System.Collections.Generic;
@@ -12,17 +12,11 @@ namespace serwis_komputerowy
         [Key]
         public int IDCzynnosci { get; set; }
 
-        [Required]
-        [StringLength(45)]
-        public string IDZlecenia { get; set; }
+        public int IDZlecenia { get; set; }
 
-        [Required]
-        [StringLength(45)]
-        public string IDPracownika { get; set; }
+        public int IDPracownika { get; set; }
 
-        [Required]
-        [StringLength(45)]
-        public string IDKatCzynnosci { get; set; }
+        public int IDKatCzynnosci { get; set; }
 
         [Required]
         [StringLength(45)]
