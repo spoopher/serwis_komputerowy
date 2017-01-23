@@ -35,7 +35,7 @@ namespace serwis_komputerowy
         {
 
 
-            ///////////////////////////////////////////////////////////////////////////////// 
+          
 
             if (comboBox.SelectedIndex == 0)
             {
