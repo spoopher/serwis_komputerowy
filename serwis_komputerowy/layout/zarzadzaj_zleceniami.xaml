@@ -14,7 +14,7 @@
 
     <Grid>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="238" Margin="42,32,0,0" VerticalAlignment="Top" Width="702" SelectionChanged="listBox_SelectionChanged"/>
-        <Button x:Name="button" Content="Usuń wybrane zlecenie" HorizontalAlignment="Left" Margin="611,275,0,0" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="button" Content="Usuń wybrane zlecenie" HorizontalAlignment="Left" Margin="611,275,0,0" VerticalAlignment="Top" Width="133" Click="button_Click"/>
         <Button x:Name="button1" Content="Modyfikuj zlecenie" HorizontalAlignment="Left" Margin="496,275,0,0" VerticalAlignment="Top" Width="110"/>
 
 

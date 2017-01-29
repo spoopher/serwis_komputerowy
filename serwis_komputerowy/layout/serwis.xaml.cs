@@ -32,16 +32,24 @@ namespace serwis_komputerowy
         private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
           
-            if (comboBox.SelectedIndex == 1)
-            {
-                kategorie nowe_kategorie = new kategorie();
-                nowe_kategorie.Show();
-            }
-            if (comboBox.SelectedIndex == 2)
-            {
-                zarzadzaj_zleceniami zlecenia = new zarzadzaj_zleceniami();
-                frame.Content = zlecenia;
-            }
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            button.Visibility = Visibility.Hidden;
+            button1.Visibility = Visibility.Hidden;
+            button2.Visibility = Visibility.Hidden;
+            frame.Content = new nowe_zgloszenie();
+
+
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            button.Visibility = Visibility.Hidden;
+            button1.Visibility = Visibility.Hidden;
+            button2.Visibility = Visibility.Hidden;
+            frame.Content = new zarzadzaj_zleceniami();
         }
     }
 }

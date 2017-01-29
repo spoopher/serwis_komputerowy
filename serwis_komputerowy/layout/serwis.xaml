@@ -12,13 +12,10 @@
     </Page.Background>
 
     <Grid>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="780" SelectedIndex="0" SelectionChanged="comboBox_SelectionChanged">
-            <ComboBoxItem Content="Nowe zgłoszenie"/>
-            <ComboBoxItem Content="Zarządzanie kategoriami"/>
-            <ComboBoxItem Content="Wyświetl zgłoszenia"/>
-            <ComboBoxItem Content="Edycja zgłoszeń"/>
-        </ComboBox>
         <Frame x:Name="frame" Content="" HorizontalAlignment="Left" Height="480" Margin="0,51,0,0" VerticalAlignment="Top" Width="790"  NavigationUIVisibility="Hidden"/>
+        <Button x:Name="button" Content="Nowe zgłoszenie" HorizontalAlignment="Left" Margin="263,111,0,0" VerticalAlignment="Top" Width="282" Height="51" FontSize="20" Click="button_Click"/>
+        <Button x:Name="button1" Content="Lista zleceń" HorizontalAlignment="Left" Margin="263,182,0,0" VerticalAlignment="Top" Width="282" Height="52" FontSize="20" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Lista klientów" HorizontalAlignment="Left" Margin="263,260,0,0" VerticalAlignment="Top" Width="282" Height="51" FontSize="20"/>
 
     </Grid>
 </Page>

@@ -27,6 +27,7 @@ namespace serwis_komputerowy
         public MainWindow()
         {
             InitializeComponent();
+            CenterWindowOnScreen();
     
         }
 
@@ -34,7 +35,16 @@ namespace serwis_komputerowy
         {
             button3.IsEnabled = true;
         }
-   
+
+        private void CenterWindowOnScreen()
+        {
+            double screenWidth = System.Windows.SystemParameters.PrimaryScreenWidth;
+            double screenHeight = System.Windows.SystemParameters.PrimaryScreenHeight;
+            double windowWidth = this.Width;
+            double windowHeight = this.Height;
+            this.Left = (screenWidth / 2) - (windowWidth / 2);
+            this.Top = (screenHeight / 2) - (windowHeight / 2);
+        }
 
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -56,7 +66,7 @@ namespace serwis_komputerowy
         {
             serwis nowys = new serwis();
             main.Content = nowys;
-            nowys.frame.Content = new nowe_zgloszenie();
+           
         }
     }
 }

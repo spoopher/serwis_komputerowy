@@ -13,7 +13,7 @@
 
 
     <Grid>
-        <Button x:Name="button" Content="Doda zgłoszenie" HorizontalAlignment="Left" Margin="616,420,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="button_Click"/>
+        <Button x:Name="button" Content="Dodaj zlecenie" HorizontalAlignment="Left" Margin="616,420,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="button_Click"/>
         <Label x:Name="label" Content="Imię" HorizontalAlignment="Left" Margin="117,55,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Nazwisko" HorizontalAlignment="Left" Margin="90,94,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Adres mail" HorizontalAlignment="Left" Margin="84,138,0,0" VerticalAlignment="Top"/>
@@ -43,6 +43,13 @@
         <Button x:Name="button1" Content="zarządzaj kategoriami" HorizontalAlignment="Left" Margin="362,387,0,0" VerticalAlignment="Top" Width="120" Click="button1_Click"/>
         <Label x:Name="label11" Content="Adres zamieszkania" HorizontalAlignment="Left" Margin="37,224,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.053,0.096"/>
         <TextBox x:Name="textBox9" HorizontalAlignment="Left" Height="23" Margin="157,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <Label x:Name="label12" Content="Sprzęt" HorizontalAlignment="Left" Margin="51,286,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="label13" Content="Klient" HorizontalAlignment="Left" Margin="48,10,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="157,18,0,0" VerticalAlignment="Top" Width="149" SelectionChanged="comboBox2_SelectionChanged">
+            <ComboBoxItem Content="Nowy klient"/>
+            <ComboBoxItem Content="Klient z listy"/>
+        </ComboBox>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="122" Margin="48,65,0,0" VerticalAlignment="Top" Width="289" Visibility="Hidden"/>
 
     </Grid>
 </Page>

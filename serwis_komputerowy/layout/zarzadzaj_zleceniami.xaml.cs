@@ -24,17 +24,41 @@ namespace serwis_komputerowy.layout
         Baza baza = new Baza();
         public zarzadzaj_zleceniami()
         {
+                  
             InitializeComponent();
-            foreach (var a in baza.Zlecenie)
+
+            List<Zlecenie> lista_zlecen = new List<Zlecenie>();
+            List<Klient> lista_klientow = new List<Klient>();
+
+            lista_klientow = baza.Klient.ToList();
+            lista_zlecen = baza.Zlecenie.ToList();
+
+
+
+            foreach (var a in lista_zlecen)
             {
-                int nazwisko = a.IDKlienta;
+                string nazwisko = (lista_klientow.Where(b => b.IDKlienta == a.IDKlienta).First()).Nazwisko;
+                string imie = (lista_klientow.Where(b => b.IDKlienta == a.IDKlienta).First()).Imie;
                 listBox.Items.Add(nazwisko);
+
             }
+
+
         }
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
           
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            string nazwisko_zlecenie = listBox.SelectedItem.ToString();
+            Zlecenie zlecenie = (Zlecenie)baza.Zlecenie.Where(b => b.Klient.Nazwisko == nazwisko_zlecenie).First();
+            Sprzet sprzet = (Sprzet)baza.Sprzet.Where(b => b.Klient.Nazwisko == nazwisko_zlecenie).First();
+            baza.Zlecenie.Remove(zlecenie);
+            baza.Sprzet.Remove(sprzet);
+            baza.SaveChanges();
         }
     }
 }
