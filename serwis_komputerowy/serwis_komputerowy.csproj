@@ -116,6 +116,9 @@
     <Compile Include="layout\new_user.xaml.cs">
       <DependentUpon>new_user.xaml</DependentUpon>
     </Compile>
+    <Compile Include="layout\zarzadzaj_zleceniami.xaml.cs">
+      <DependentUpon>zarzadzaj_zleceniami.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -179,6 +182,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="layout\zarzadzaj_kontami.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="layout\zarzadzaj_zleceniami.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

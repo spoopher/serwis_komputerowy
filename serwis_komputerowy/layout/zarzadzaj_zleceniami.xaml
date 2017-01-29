@@ -1,0 +1,22 @@
+﻿<Page x:Class="serwis_komputerowy.layout.zarzadzaj_zleceniami"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:serwis_komputerowy.layout"
+      mc:Ignorable="d" 
+      d:DesignHeight="480" d:DesignWidth="790"
+      Title="zarzadzaj_zleceniami">
+    <Page.Background>
+        <ImageBrush ImageSource="background.png"/>
+    </Page.Background>
+
+
+    <Grid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="238" Margin="42,32,0,0" VerticalAlignment="Top" Width="702" SelectionChanged="listBox_SelectionChanged"/>
+        <Button x:Name="button" Content="Usuń wybrane zlecenie" HorizontalAlignment="Left" Margin="611,275,0,0" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="button1" Content="Modyfikuj zlecenie" HorizontalAlignment="Left" Margin="496,275,0,0" VerticalAlignment="Top" Width="110"/>
+
+
+    </Grid>
+</Page>

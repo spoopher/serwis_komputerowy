@@ -13,22 +13,26 @@
 
 
     <Grid>
-        <Button x:Name="button" Content="Doda zgłoszenie" HorizontalAlignment="Left" Margin="616,420,0,0" VerticalAlignment="Top" Width="164" Height="50"/>
-        <Label x:Name="label" Content="Imię" HorizontalAlignment="Left" Margin="48,51,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label1" Content="Nazwisko" HorizontalAlignment="Left" Margin="48,94,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label2" Content="Adres mail" HorizontalAlignment="Left" Margin="48,138,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label3" Content="Telefon" HorizontalAlignment="Left" Margin="48,186,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label4" Content="Producent" HorizontalAlignment="Left" Margin="48,263,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label5" Content="Model" HorizontalAlignment="Left" Margin="313,266,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Doda zgłoszenie" HorizontalAlignment="Left" Margin="616,420,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="button_Click"/>
+        <Label x:Name="label" Content="Imię" HorizontalAlignment="Left" Margin="117,55,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Nazwisko" HorizontalAlignment="Left" Margin="90,94,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Adres mail" HorizontalAlignment="Left" Margin="84,138,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Telefon" HorizontalAlignment="Left" Margin="102,184,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Producent" HorizontalAlignment="Left" Margin="51,326,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Model" HorizontalAlignment="Left" Margin="313,326,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label6" Content="Nr. Seryjny" HorizontalAlignment="Left" Margin="48,357,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label7" Content="Stan sprzętu" HorizontalAlignment="Left" Margin="40,426,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="120,426,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="128,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="128,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="128,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="128,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="117,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="362,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="120,426,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="sprawny"/>
+            <ComboBoxItem Content="uszkodzony"/>
+            <ComboBoxItem Content="mocno uszkodzony"/>
+        </ComboBox>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="157,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="157,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="157,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="157,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="120,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="362,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="23" Margin="120,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label8" Content="uwagi klienta" HorizontalAlignment="Left" Margin="362,51,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox7" HorizontalAlignment="Left" Height="66" Margin="458,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="307"/>
@@ -37,6 +41,8 @@
         <Label x:Name="label10" Content="Kategoria" HorizontalAlignment="Left" Margin="296,357,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="362,360,0,0" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="button1" Content="zarządzaj kategoriami" HorizontalAlignment="Left" Margin="362,387,0,0" VerticalAlignment="Top" Width="120" Click="button1_Click"/>
+        <Label x:Name="label11" Content="Adres zamieszkania" HorizontalAlignment="Left" Margin="37,224,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.053,0.096"/>
+        <TextBox x:Name="textBox9" HorizontalAlignment="Left" Height="23" Margin="157,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
 
     </Grid>
 </Page>

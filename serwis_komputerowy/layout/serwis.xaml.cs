@@ -34,7 +34,13 @@ namespace serwis_komputerowy
           
             if (comboBox.SelectedIndex == 1)
             {
-                frame.Content = new nowe_zgloszenie();
+                kategorie nowe_kategorie = new kategorie();
+                nowe_kategorie.Show();
+            }
+            if (comboBox.SelectedIndex == 2)
+            {
+                zarzadzaj_zleceniami zlecenia = new zarzadzaj_zleceniami();
+                frame.Content = zlecenia;
             }
         }
     }

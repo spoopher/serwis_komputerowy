@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\layout\App.xaml
-9-1094881781
+10-918506857
 1-153140513
-221483018371
+23422734349
 2085769278
-layout\kategorie.xaml;layout\login_start.xaml;layout\MainWindow.xaml;layout\new_password.xaml;layout\new_user.xaml;layout\nowe_zgloszenie.xaml;layout\root.xaml;layout\serwis.xaml;layout\zarzadzaj_kontami.xaml;
+layout\kategorie.xaml;layout\login_start.xaml;layout\MainWindow.xaml;layout\new_password.xaml;layout\new_user.xaml;layout\nowe_zgloszenie.xaml;layout\root.xaml;layout\serwis.xaml;layout\zarzadzaj_kontami.xaml;layout\zarzadzaj_zleceniami.xaml;
 
 False
 
