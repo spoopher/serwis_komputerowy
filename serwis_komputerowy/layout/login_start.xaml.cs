@@ -43,44 +43,47 @@ namespace serwis_komputerowy
         {
             String user = textBox.Text;
             String password = md5.CreateMD5(passwordBox.Password);
-           
 
-           
+            try {
 
 
-            foreach (var userr in baza.Pracownik)
-            {
-                if (userr.Login == user && userr.Haslo == password)
-                {               
-                    main.Show();
-                    this.Hide();
-                    MessageBox.Show("Poprawnie zalogowano!", "Logowanie", MessageBoxButton.OK, MessageBoxImage.Information);
-                   
-                    foreach (Window window in Application.Current.Windows)
+                foreach (var userr in baza.Pracownik)
+                {
+                    if (userr.Login == user && userr.Haslo == password)
                     {
-                        if (window.GetType() == typeof(MainWindow))
-                        {
-                            (window as MainWindow).button3.IsEnabled = true;
-                            
-                        }
-                        if (window.GetType() == typeof(MainWindow) && userr.Login == "admin")
-                        {
-                            (window as MainWindow).button3.IsEnabled = true;
-                            (window as MainWindow).button1.IsEnabled = true;
-                            (window as MainWindow).button.IsEnabled = true;
+                        main.Show();
+                        this.Hide();
+                        MessageBox.Show("Poprawnie zalogowano!", "Logowanie", MessageBoxButton.OK, MessageBoxImage.Information);
 
+                        foreach (Window window in Application.Current.Windows)
+                        {
+                            if (window.GetType() == typeof(MainWindow))
+                            {
+                                (window as MainWindow).button3.IsEnabled = true;
+
+                            }
+                            if (window.GetType() == typeof(MainWindow) && userr.Login == "admin")
+                            {
+                                (window as MainWindow).button3.IsEnabled = true;
+                                (window as MainWindow).button1.IsEnabled = true;
+                                (window as MainWindow).button.IsEnabled = true;
+
+                            }
                         }
+
+
+                    }
+                    else
+                    {
+                        ;
                     }
 
-                    
                 }
-                else
-                {
-                    ;
-                }
-
             }
-
+            catch
+            {
+                MessageBox.Show("Błąd logowania!", "Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

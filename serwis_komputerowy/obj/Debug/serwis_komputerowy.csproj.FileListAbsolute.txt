@@ -72,3 +72,13 @@ C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layou
 C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\nowe_zgloszenie.baml
 C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\zarzadzaj_zleceniami.g.cs
 C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\zarzadzaj_zleceniami.baml
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\kategorie.g.cs
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\nowe_zgloszenie.g.cs
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\zarzadzaj_zleceniami.g.cs
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\kategorie.baml
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\nowe_zgloszenie.baml
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\zarzadzaj_zleceniami.baml
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\exit.png
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\maths.png
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\repairing.png
+C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\user.png

@@ -23,11 +23,27 @@
             <RowDefinition Height="530*"/>
         </Grid.RowDefinitions>
         <Frame x:Name="main" Height="530" VerticalAlignment="Bottom" NavigationUIVisibility="Hidden" Grid.Row="2" Grid.ColumnSpan="3"/>
-        <Menu x:Name="menu" HorizontalAlignment="Left" Height="41" Grid.Row="1" VerticalAlignment="Top" Width="794" Grid.ColumnSpan="3" Grid.RowSpan="2">
-            <Button x:Name="button1" x:FieldModifier="public" Content="Dodaj/Usun Konto" HorizontalAlignment="Left" VerticalAlignment="Top" Width="113" Height="40" Click="button1_Click" IsEnabled="False" IsCancel="True" RenderTransformOrigin="0.836,3.724"/>
-            <Button x:Name="button" Content="Zarządzaj kontami" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Height="40" IsEnabled="False" Click="button_Click"/>
-            <Button x:Name="button3" x:FieldModifier="public" Content="Serwis zgłoszeń" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Height="40" IsDefault="True" IsEnabled="False" Click="button3_Click"/>
-            <Button x:Name="button2" Content="Wyjście" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Height="40" Click="button2_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Menu x:Name="menu" Height="50" Grid.Row="1" Width="794" Grid.ColumnSpan="3" Grid.RowSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Button x:Name="button1" x:FieldModifier="public" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="113" Height="40" Click="button1_Click" IsEnabled="False" RenderTransformOrigin="0.836,3.724">
+                <Button.Background>
+                    <ImageBrush ImageSource="maths.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="button" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Height="40" IsEnabled="False" Click="button_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="user.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="button3" x:FieldModifier="public" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Height="40" IsDefault="True" IsEnabled="False" Click="button3_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="repairing.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="button2" Content="" VerticalAlignment="Top" Width="95" Height="40" Click="button2_Click" RenderTransformOrigin="2.137,1.4" Margin="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="exit.png" Stretch="None"/>
+                </Button.Background>
+            </Button>
         </Menu>
 
 

@@ -9,5 +9,9 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("layout/background.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("layout/exit.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("layout/maths.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("layout/repairing.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("layout/user.png")]
 
 

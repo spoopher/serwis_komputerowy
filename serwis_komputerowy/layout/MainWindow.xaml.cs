@@ -54,7 +54,18 @@ namespace serwis_komputerowy
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+
+            if (MessageBox.Show("Przelogować użytkownika?", "Działanie", MessageBoxButton.YesNo, MessageBoxImage.Question)== MessageBoxResult.Yes)
+            {
+                this.Hide();
+                login_start nowe_logowanie = new login_start();
+                nowe_logowanie.Show();
+                
+            }
+            else
+            {
+                Application.Current.Shutdown();
+            }
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
