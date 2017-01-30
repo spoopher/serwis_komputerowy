@@ -39,6 +39,7 @@ namespace serwis_komputerowy.layout
             {
                 string nazwisko = (lista_klientow.Where(b => b.IDKlienta == a.IDKlienta).First()).Nazwisko;
                 string imie = (lista_klientow.Where(b => b.IDKlienta == a.IDKlienta).First()).Imie;
+                string status = a.Status;
                 listBox.Items.Add(nazwisko);
 
             }
@@ -53,12 +54,15 @@ namespace serwis_komputerowy.layout
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
+
             string nazwisko_zlecenie = listBox.SelectedItem.ToString();
+            listBox.Items.RemoveAt(listBox.SelectedIndex);
             Zlecenie zlecenie = (Zlecenie)baza.Zlecenie.Where(b => b.Klient.Nazwisko == nazwisko_zlecenie).First();
             Sprzet sprzet = (Sprzet)baza.Sprzet.Where(b => b.Klient.Nazwisko == nazwisko_zlecenie).First();
             baza.Zlecenie.Remove(zlecenie);
             baza.Sprzet.Remove(sprzet);
             baza.SaveChanges();
+     
         }
     }
 }

@@ -13,6 +13,8 @@
 
 
     <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="178" Margin="28,292,0,0" VerticalAlignment="Top" Width="476" Background="#FF678F93"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="183" Margin="337,47,0,0" VerticalAlignment="Top" Width="443" Background="#FF678F93"/>
         <Button x:Name="button" Content="Dodaj zlecenie" HorizontalAlignment="Left" Margin="616,420,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="button_Click"/>
         <Label x:Name="label" Content="Imię" HorizontalAlignment="Left" Margin="117,55,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Nazwisko" HorizontalAlignment="Left" Margin="90,94,0,0" VerticalAlignment="Top"/>
@@ -50,6 +52,8 @@
             <ComboBoxItem Content="Klient z listy"/>
         </ComboBox>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="122" Margin="48,65,0,0" VerticalAlignment="Top" Width="289" Visibility="Hidden"/>
+       
+
 
     </Grid>
 </Page>

@@ -44,7 +44,9 @@
                     <ImageBrush ImageSource="exit.png" Stretch="None"/>
                 </Button.Background>
             </Button>
+            <Label x:Name="label" Content="System zarządzania zleceniami v 1.0.2 2017" Width="312"/>
         </Menu>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="3" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="794" Background="Black"/>
 
 
 
