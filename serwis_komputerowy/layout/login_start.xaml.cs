@@ -1,4 +1,5 @@
 ﻿using serwis_komputerowy.entity;
+using serwis_komputerowy.layout;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -84,6 +85,12 @@ namespace serwis_komputerowy
             {
                 MessageBox.Show("Błąd logowania!", "Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        private void yy(object sender, MouseButtonEventArgs e)
+        {
+            przypomnienie_hasla nowe = new przypomnienie_hasla();
+            nowe.Show();
         }
     }
 }

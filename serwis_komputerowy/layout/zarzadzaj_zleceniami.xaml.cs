@@ -41,7 +41,7 @@ namespace serwis_komputerowy.layout
                 string imie = (lista_klientow.Where(b => b.IDKlienta == a.IDKlienta).First()).Imie;
                 string status = a.Status;
                 listBox.Items.Add(nazwisko);
-
+                ((ComboBoxItem)comboBox.SelectedItem).Content = status;
             }
 
 
@@ -49,20 +49,55 @@ namespace serwis_komputerowy.layout
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-          
+            try
+            {
+                string aktualne_info = (baza.Zlecenie.Where(b => b.Klient.Nazwisko == listBox.SelectedItem.ToString()).First()).UwagiSerwisu;
+                textBox.Text = aktualne_info;
+            }
+            catch
+            {
+                textBox.Text = "zadne zlecenie nie zostało zaznaczone";
+            }
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
-            string nazwisko_zlecenie = listBox.SelectedItem.ToString();
-            listBox.Items.RemoveAt(listBox.SelectedIndex);
-            Zlecenie zlecenie = (Zlecenie)baza.Zlecenie.Where(b => b.Klient.Nazwisko == nazwisko_zlecenie).First();
-            Sprzet sprzet = (Sprzet)baza.Sprzet.Where(b => b.Klient.Nazwisko == nazwisko_zlecenie).First();
-            baza.Zlecenie.Remove(zlecenie);
-            baza.Sprzet.Remove(sprzet);
-            baza.SaveChanges();
+            try
+            {
+                string nazwisko_zlecenie = listBox.SelectedItem.ToString();
+                Zlecenie zlecenie = (Zlecenie)baza.Zlecenie.Where(b => b.Klient.Nazwisko == nazwisko_zlecenie).First();
+                Sprzet sprzet = (Sprzet)baza.Sprzet.Where(b => b.Klient.Nazwisko == nazwisko_zlecenie).First();
+                baza.Zlecenie.Remove(zlecenie);
+                baza.SaveChanges();
+                baza.Sprzet.Remove(sprzet);
+                baza.SaveChanges();
+                listBox.Items.RemoveAt(listBox.SelectedIndex);
+                MessageBox.Show("Usunięto", "sukces", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch
+            {
+                MessageBox.Show("wystąpił problem", "bląd", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
      
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Zlecenie nowe_info = baza.Zlecenie.Where(b => b.Klient.Nazwisko == listBox.SelectedItem.ToString()).First();
+                nowe_info.UwagiSerwisu = textBox.Text;
+                nowe_info.Status = ((ComboBoxItem)comboBox.SelectedItem).Content.ToString();
+                baza.SaveChanges();
+                MessageBox.Show("zmodyfikowano!", "sukces", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch
+            {
+                MessageBox.Show("wystąpił problem", "bląd", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
+        }
+
+      
     }
 }

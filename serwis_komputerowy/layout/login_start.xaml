@@ -16,7 +16,7 @@
         <Label x:Name="label1" Content="Użytkownik:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="33" Width="120" FontSize="18" Margin="61,34,0,0"/>
         <TextBox x:Name="textBox" Height="20" Margin="61,67,0,0" TextWrapping="Wrap" Width="160" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Button x:Name="button" Content="Zaloguj" HorizontalAlignment="Left" Margin="61,222,0,0" VerticalAlignment="Top" Width="160" Click="button_Click" Height="34"/>
-        <Label x:Name="label2" Content="Nie pamiętasz hasła?" HorizontalAlignment="Left" Margin="93,261,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Nie pamiętasz hasła?" HorizontalAlignment="Left" Margin="93,261,0,0" VerticalAlignment="Top" MouseDoubleClick="yy"/>
 
     </Grid>
 

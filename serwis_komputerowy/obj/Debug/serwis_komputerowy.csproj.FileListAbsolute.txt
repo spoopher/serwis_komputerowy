@@ -82,3 +82,9 @@ C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_ko
 C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\maths.png
 C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\repairing.png
 C:\Users\r66t\Documents\Visual Studio 2015\Projects\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\user.png
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\exit.png
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\maths.png
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\repairing.png
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\bin\Debug\layout\user.png
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\przypomnienie_hasla.g.cs
+C:\Users\r66t\Source\Repos\serwis_komputerowy\serwis_komputerowy\obj\Debug\layout\przypomnienie_hasla.baml

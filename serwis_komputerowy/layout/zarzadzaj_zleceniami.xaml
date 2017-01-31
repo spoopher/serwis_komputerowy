@@ -13,9 +13,21 @@
 
 
     <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="161" Margin="42,309,0,0" VerticalAlignment="Top" Width="590" Background="#FF678F93"/>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="238" Margin="42,32,0,0" VerticalAlignment="Top" Width="702" SelectionChanged="listBox_SelectionChanged"/>
         <Button x:Name="button" Content="Usuń wybrane zlecenie" HorizontalAlignment="Left" Margin="611,275,0,0" VerticalAlignment="Top" Width="133" Click="button_Click"/>
-        <Button x:Name="button1" Content="Modyfikuj zlecenie" HorizontalAlignment="Left" Margin="496,275,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button x:Name="button1" Content="Modyfikuj zlecenie" HorizontalAlignment="Left" Margin="505,432,0,0" VerticalAlignment="Top" Width="110" Click="button1_Click"/>
+        <Label x:Name="label" Content="Status zlecenia&#xD;&#xA;" HorizontalAlignment="Left" Margin="81,330,0,0" VerticalAlignment="Top" Height="28"/>
+        <Label x:Name="label1" Content="Nowe uwagi serwisu" HorizontalAlignment="Left" Margin="56,376,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="174,336,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="1">
+            <ComboBoxItem Content="Zawieszony"/>
+            <ComboBoxItem/>
+            <ComboBoxItem Content="Gotowy"/>
+            <ComboBoxItem Content="Serwisowany"/>
+            <ComboBoxItem Content="Anulowany"/>
+        </ComboBox>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="76" Margin="174,376,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="247"/>
+
 
 
     </Grid>

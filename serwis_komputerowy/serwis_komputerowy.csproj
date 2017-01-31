@@ -99,6 +99,9 @@
     <Compile Include="layout\nowe_zgloszenie.xaml.cs">
       <DependentUpon>nowe_zgloszenie.xaml</DependentUpon>
     </Compile>
+    <Compile Include="layout\przypomnienie_hasla.xaml.cs">
+      <DependentUpon>przypomnienie_hasla.xaml</DependentUpon>
+    </Compile>
     <Compile Include="layout\root.xaml.cs">
       <DependentUpon>root.xaml</DependentUpon>
     </Compile>
@@ -170,6 +173,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="layout\nowe_zgloszenie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="layout\przypomnienie_hasla.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

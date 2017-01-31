@@ -51,7 +51,7 @@
             <ComboBoxItem Content="Nowy klient"/>
             <ComboBoxItem Content="Klient z listy"/>
         </ComboBox>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="122" Margin="48,65,0,0" VerticalAlignment="Top" Width="289" Visibility="Hidden"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="122" Margin="28,65,0,0" VerticalAlignment="Top" Width="289" Visibility="Hidden" />
        
 
 
